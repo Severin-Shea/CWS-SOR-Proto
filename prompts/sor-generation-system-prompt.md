@@ -30,9 +30,9 @@ Structure the SOR with these sections:
 
 Citation rules:
 - When content is adapted from exemplar documents, append [cite: {{docId}} §{{section}}].
-- Prefer exemplars matching sorType, sector, and jurisdiction.state, and overlapping security requirements.
+- Prefer exemplars matching sorType, sector, and jurisdiction.state.
 
 Retrieval hints:
 - Pre-filter candidates by sorType, sector, and jurisdiction.state from metadata.
-- Boost chunks with overlapping securityCompliance, deliveryModel, pricingModel.
+- Boost chunks with overlapping deliveryModel, pricingModel.
 - Prefer exemplars from the last 36 months when dates are available.
