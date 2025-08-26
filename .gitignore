@@ -5,6 +5,9 @@ dist/
 .env
 # Artifacts
 .artifacts/
+# Generated content (outputs from scripts - keep source controlled)
+# processedDocs/
+# context/
 # Mac/IDE
 .DS_Store
 .vscode/
