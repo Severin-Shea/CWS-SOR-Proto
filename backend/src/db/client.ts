@@ -15,20 +15,29 @@ export const db = {
       values (${rec.compose_id}, ${rec.status}, ${sql.json(rec.request_payload)}, ${rec.archetype_key})
     `;
   },
+  
   async updateComposeSession(id: string, patch: any) {
-    await sql/*sql*/`
-      update compose_sessions
-      set
-        status = coalesce(${patch.status}, status),
-        proposed_examples = coalesce(${patch.proposed_examples ? sql.json(patch.proposed_examples) : null}, proposed_examples),
-        approved_examples = coalesce(${patch.approved_examples ? sql.json(patch.approved_examples) : null}, approved_examples),
-        proposed_template_spec = coalesce(${patch.proposed_template_spec ? sql.json(patch.proposed_template_spec) : null}, proposed_template_spec),
-        approved_template_spec = coalesce(${patch.approved_template_spec ? sql.json(patch.approved_template_spec) : null}, approved_template_spec),
-        last_run_audit = coalesce(${patch.last_run_audit ? sql.json(patch.last_run_audit) : null}, last_run_audit),
-        updated_at = now()
-      where compose_id = ${id}
-    `;
+    // Simple approach: update each field individually if it exists
+    if (patch.status) {
+      await sql`update compose_sessions set status = ${patch.status}, updated_at = now() where compose_id = ${id}`;
+    }
+    if (patch.proposed_examples) {
+      await sql`update compose_sessions set proposed_examples = ${sql.json(patch.proposed_examples)}, updated_at = now() where compose_id = ${id}`;
+    }
+    if (patch.approved_examples) {
+      await sql`update compose_sessions set approved_examples = ${sql.json(patch.approved_examples)}, updated_at = now() where compose_id = ${id}`;
+    }
+    if (patch.proposed_template_spec) {
+      await sql`update compose_sessions set proposed_template_spec = ${sql.json(patch.proposed_template_spec)}, updated_at = now() where compose_id = ${id}`;
+    }
+    if (patch.approved_template_spec) {
+      await sql`update compose_sessions set approved_template_spec = ${sql.json(patch.approved_template_spec)}, updated_at = now() where compose_id = ${id}`;
+    }
+    if (patch.last_run_audit) {
+      await sql`update compose_sessions set last_run_audit = ${sql.json(patch.last_run_audit)}, updated_at = now() where compose_id = ${id}`;
+    }
   },
+  
   async getComposeSession(id: string) {
     const rows = await sql/*sql*/`select * from compose_sessions where compose_id = ${id} limit 1`;
     return rows[0];
@@ -41,7 +50,7 @@ export const db = {
     let rows = await sql/*sql*/`
       select doc_id, title, abstract, agency, contract_type, project_domain, year, recency_score
       from documents
-      where agency = ${agency} and contract_type = ${contract_type} and project_domain = ${project_domain}
+      where agency = ${agency || ''} and contract_type = ${contract_type || ''} and project_domain = ${project_domain || ''}
       order by year desc
       limit 20
     `;
@@ -49,7 +58,7 @@ export const db = {
       rows = await sql/*sql*/`
         select doc_id, title, abstract, agency, contract_type, project_domain, year, recency_score
         from documents
-        where project_domain = ${project_domain}
+        where project_domain = ${project_domain || ''}
         order by recency_score desc
         limit 20
       `;
@@ -63,21 +72,48 @@ export const db = {
     limit: number
   }) {
     const { keywords, approvedDocIds, limit } = params;
-    const whereDoc = approvedDocIds?.length ? sql`c.doc_id = any(${approvedDocIds})` : sql``;
-    const whereTs = keywords and keywords.trim().length
-      ? sql`ts_rank_cd(c.tsv, plainto_tsquery('english', ${keywords})) > 0`
-      : sql``;
-
-    const rows = await sql/*sql*/`
-      select c.doc_id, c.section_ref, c.text
-      from chunks c
-      where 1=1
-      ${whereDoc ? sql`and ${whereDoc}` : sql``}
-      ${whereTs ? sql`and ${whereTs}` : sql``}
-      order by case when ${whereTs ? 1 : 0} = 1 then ts_rank_cd(c.tsv, plainto_tsquery('english', ${keywords ?? ''})) end desc nulls last,
-               c.id desc
-      limit ${limit}
-    `;
-    return rows;
+    
+    // Simple approach: use different queries based on conditions
+    if (approvedDocIds && approvedDocIds.length > 0 && keywords && keywords.trim().length > 0) {
+      // Both filters
+      const rows = await sql`
+        select c.doc_id, c.section_ref, c.text
+        from chunks c
+        where c.doc_id = any(${approvedDocIds})
+          and ts_rank_cd(c.tsv, plainto_tsquery('english', ${keywords})) > 0
+        order by ts_rank_cd(c.tsv, plainto_tsquery('english', ${keywords})) desc, c.id desc
+        limit ${limit}
+      `;
+      return rows;
+    } else if (approvedDocIds && approvedDocIds.length > 0) {
+      // Only doc filter
+      const rows = await sql`
+        select c.doc_id, c.section_ref, c.text
+        from chunks c
+        where c.doc_id = any(${approvedDocIds})
+        order by c.id desc
+        limit ${limit}
+      `;
+      return rows;
+    } else if (keywords && keywords.trim().length > 0) {
+      // Only keyword filter
+      const rows = await sql`
+        select c.doc_id, c.section_ref, c.text
+        from chunks c
+        where ts_rank_cd(c.tsv, plainto_tsquery('english', ${keywords})) > 0
+        order by ts_rank_cd(c.tsv, plainto_tsquery('english', ${keywords})) desc, c.id desc
+        limit ${limit}
+      `;
+      return rows;
+    } else {
+      // No filters
+      const rows = await sql`
+        select c.doc_id, c.section_ref, c.text
+        from chunks c
+        order by c.id desc
+        limit ${limit}
+      `;
+      return rows;
+    }
   }
 };
