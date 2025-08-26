@@ -3,6 +3,8 @@ node_modules/
 npm-debug.log*
 dist/
 .env
+# Python venv
+.venv/
 # Artifacts
 .artifacts/
 # Generated content (outputs from scripts - keep source controlled)

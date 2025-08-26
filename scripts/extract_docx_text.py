@@ -63,8 +63,19 @@ def main():
         out_path = OUT_DIR / out_name
 
         with open(docx, "rb") as f:
-            result = mammoth.convert_to_markdown(f)
-            md = result.value
+            md_result = mammoth.convert_to_markdown(f)
+            md = md_result.value
+
+        # Redact obvious PII like emails and phone numbers
+        import re
+        # Drop Markdown images entirely to avoid embedding base64 or external refs
+        md = re.sub(r"!\[[^\]]*\]\([^\)]*\)", "", md)
+        md = re.sub(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}",
+                    "[redacted-email]",
+                    md, flags=re.IGNORECASE)
+        md = re.sub(r"(\+?1[\s.-]?)?(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})",
+                    "[redacted-phone]",
+                    md)
 
         fm = to_frontmatter(meta) if meta else ""
         out_path.write_text(fm + md, encoding="utf-8")

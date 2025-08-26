@@ -11,6 +11,7 @@ OUT = REPO_ROOT / "context" / "chunks.jsonl"
 OUT.parent.mkdir(exist_ok=True, parents=True)
 
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)")
+IMAGE_DATA_RE = re.compile(r"!\[[^\]]*\]\(data:image/[^;]+;base64,[^)]+\)")
 
 
 def read_docs() -> List[Path]:
@@ -33,6 +34,9 @@ def chunk_markdown(text: str) -> List[Dict]:
             })
 
     for line in lines:
+        # Drop inline base64 image blobs to keep chunks small and clean
+        if IMAGE_DATA_RE.search(line):
+            continue
         m = HEADING_RE.match(line)
         if m:
             # New heading
