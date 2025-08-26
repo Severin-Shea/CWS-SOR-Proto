@@ -1,0 +1,1540 @@
+[
+  {
+    "id": "vdot-drpt-virginia-department-of-transportation-vdot-department",
+    "name": "SOR EXAMPLE_APP DEV_16998_VDOT SOR Smart Portal 2022 FINAL.docx",
+    "summary": "Statement of Requirements (SOR) for enhancements and ongoing support of the Virginia Department of Transportation's (VDOT) SMART Portal. The project delivers multi-phase web application improvements for intake, validation, screening, and scoring of transportation grant applications.",
+    "sorType": "Application Development",
+    "services": [
+      "Application Development",
+      "Support & Maintenance"
+    ],
+    "industries": [
+      "Transportation",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Web Application",
+      "GIS"
+    ],
+    "techFocus": [
+      "Workflow Automation",
+      "Data Management"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDOT, DRPT",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Transportation (VDOT) / Department of Rail and Public Transportation (DRPT)",
+    "date": "2021-05-10",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Agile",
+      "Multi-phase",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_APP DEV_16998_VDOT SOR Smart Portal 2022 FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "city-of-fredericksburg-information-technology-division-city-of-f",
+    "name": "SOR EXAMPLE_SP_17923_Fredericksburg SOR IT Strategic Plan FINAL.docx",
+    "summary": "Statement of Requirements for a 5-year IT Strategic Plan for the City of Fredericksburg, including assessment of IT systems, staffing, business processes, and creation of a future-state roadmap covering governance, data, cloud, cybersecurity, and technology prioritization.",
+    "sorType": "IT Strategic Planning",
+    "services": [
+      "Strategic Planning",
+      "IT Assessment"
+    ],
+    "industries": [
+      "Local Government",
+      "Public Administration"
+    ],
+    "primaryTechnology": [
+      "Microsoft Office",
+      "Survey Tools"
+    ],
+    "techFocus": [
+      "Strategic Planning",
+      "IT Governance"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "Local",
+      "state": "Virginia"
+    },
+    "agency": "City of Fredericksburg, Information Technology Division",
+    "clientType": "Local Government",
+    "client": "City of Fredericksburg — Information Technology Division",
+    "date": "2023-07-10",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Survey-Driven",
+      "Council Presentation",
+      "SWOT Analysis",
+      "5-Year Roadmap",
+      "Implementation Support Option",
+      "Multi-Departmental Scope",
+      "Staff/Stakeholder Engagement",
+      "Onsite/Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_SP_17923_Fredericksburg SOR IT Strategic Plan FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdh-office-of-information-management-virginia-department-of-heal",
+    "name": "SOR EXAMPLE_APP DEV_18073_VDH_SOR_Agency Grant Management System MSDY Final.docx",
+    "summary": "Statement of Requirements for a new Agency Grant Management System for the Virginia Department of Health (VDH). Project covers lifecycle grants management, workflow automation, reporting, data migration, security, and user training on the Microsoft Dynamics platform.",
+    "sorType": "Application Development",
+    "services": [
+      "Application Development",
+      "Systems Integration"
+    ],
+    "industries": [
+      "Health",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Microsoft Dynamics"
+    ],
+    "techFocus": [
+      "Grant Management",
+      "Workflow Automation"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDH, Office of Information Management",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Health (VDH) — Office of Information Management",
+    "date": "2023-12-11",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "No Offshore",
+      "Multiple Integrations",
+      "Training Required",
+      "Remote"
+    ],
+    "fundingType": "ARPA",
+    "complexity": "High",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_APP DEV_18073_VDH_SOR_Agency Grant Management System MSDY Final.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "virginia-it-agency-office-of-regulatory-management-virginia-info",
+    "name": "SOR EXAMPLE_SP_17791_VITA SOR ORM State Permit Tracking FINAL.docx",
+    "summary": "Statement of Requirements for a strategic assessment and roadmap to improve business process efficiency, transparency, and data reporting for state permit tracking across five Virginia agencies, culminating in an enterprise dashboard plan.",
+    "sorType": "Strategic Planning",
+    "services": [
+      "IT Strategic Planning",
+      "Business Process Reengineering"
+    ],
+    "industries": [
+      "Government",
+      "Regulatory"
+    ],
+    "primaryTechnology": [
+      "Microsoft .NET",
+      "PowerBI",
+      "Oracle"
+    ],
+    "techFocus": [
+      "Process Improvement",
+      "Data Integration"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "Virginia IT Agency, Office of Regulatory Management",
+    "clientType": "State Agency",
+    "client": "Virginia Information Technologies Agency (VITA) — Office of Regulatory Management",
+    "date": "2023-03-03",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Multi-Agency",
+      "Dashboard Roadmap",
+      "Phase-Based",
+      "Agile",
+      "Knowledge Transfer",
+      "IV&V Option",
+      "Onsite/Remote"
+    ],
+    "fundingType": "State",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_SP_17791_VITA SOR ORM State Permit Tracking FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "dcjs-dlrs-virginia-department-of-criminal-justice-services-dcjs",
+    "name": "SOR EXAMPLE_BPR_17578_DCJS SOR Credential Mgmt Business Process Analysis FINAL.docx",
+    "summary": "Statement of Requirements for business process analysis and improvement planning for the Division of Licensure and Regulatory Services (DLRS) at the Virginia Department of Criminal Justice Services (DCJS), in preparation for credential management system replacement. Scope includes process mapping, gap analysis, future-state recommendations, and roadmap development.",
+    "sorType": "Business Process Reengineering",
+    "services": [
+      "Process Improvement",
+      "Roadmap Development"
+    ],
+    "industries": [
+      "Government",
+      "Public Safety"
+    ],
+    "primaryTechnology": [
+      "MS Office",
+      "MS Teams"
+    ],
+    "techFocus": [
+      "Process Analysis",
+      "Gap Identification"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "DCJS, DLRS",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Criminal Justice Services (DCJS) — Division of Licensure and Regulatory Services (DLRS)",
+    "date": "2022-09-13",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Stakeholder Interviews",
+      "Future-State Mapping",
+      "Change Management",
+      "COVID Guidelines",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_BPR_17578_DCJS SOR Credential Mgmt Business Process Analysis FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdh-office-of-drinking-water-virginia-department-of-health-vdh-o",
+    "name": "SOR EXAMPLE_BPR_17387_DWSRF Program New System Implementation Support SOR.docx",
+    "summary": "Statement of Requirements for business process analysis, standardization, and project management governance framework to support new technology implementation for the Virginia Drinking Water State Revolving Fund (DWSRF) Program at VDH. Includes process mapping, future state recommendations, and training documentation.",
+    "sorType": "Business Process Reengineering",
+    "services": [
+      "Process Improvement",
+      "Project Management"
+    ],
+    "industries": [
+      "Government",
+      "Health"
+    ],
+    "primaryTechnology": [
+      "MS Office",
+      "PowerPoint"
+    ],
+    "techFocus": [
+      "Process Analysis",
+      "Governance"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDH, Office of Drinking Water",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Health (VDH) — Office of Drinking Water",
+    "date": "2022-03-01",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Multi-phase",
+      "Standardization",
+      "Training",
+      "Coaching",
+      "Stakeholder Interviews",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_BPR_17387_DWSRF Program New System Implementation Support SOR.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "virginia-dss-it-services-virginia-department-of-social-services",
+    "name": "SOR EXAMPLE_SP_17782_DSS SOR Enterprise Transformation and Portfolio Management FINAL.docx",
+    "summary": "Statement of Requirements for establishing an Enterprise Transformation Office for Virginia DSS, covering enterprise readiness assessment, portfolio management, agile transformation, organizational change management, user experience, and transition planning for internal operations.",
+    "sorType": "Strategic Planning",
+    "services": [
+      "Portfolio Management",
+      "Change Management"
+    ],
+    "industries": [
+      "Health & Human Services",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Microsoft 365",
+      "Jira",
+      "Azure DevOps"
+    ],
+    "techFocus": [
+      "Agile Transformation",
+      "OCM"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "Virginia DSS, IT Services",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Social Services (DSS) — IT Services",
+    "date": "2023-02-27",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Transition Plan",
+      "Agile Portfolio",
+      "Product Teams",
+      "CAB Review",
+      "Staff & Skills Assessment",
+      "User Journey Mapping",
+      "Tool Recommendations",
+      "Training/Documentation Required",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_SP_17782_DSS SOR Enterprise Transformation and Portfolio Management FINAL - Copy.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "virginia-dss-division-of-family-services-dfs-virginia-dss-divisi",
+    "name": "SOR EXAMPLE_BPR_18410_DSS SOR DFS HCD for CCWIS FINAL.docx",
+    "summary": "Statement of Requirements for Human-Centered Design (HCD) services to inform the design of a new Comprehensive Child Welfare Information System (CCWIS) for Virginia DSS. Scope includes business process improvement, journey mapping, workflow review, stakeholder engagement, and roadmap development for child welfare modernization.",
+    "sorType": "Business Process Reengineering",
+    "services": [
+      "Human-Centered Design",
+      "Business Process Improvement"
+    ],
+    "industries": [
+      "Health & Human Services",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "N/A (Pre-DDI",
+      "HCD/Consulting)"
+    ],
+    "techFocus": [
+      "Workflow Mapping",
+      "Journey Mapping"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "Virginia DSS, Division of Family Services (DFS)",
+    "clientType": "State Agency",
+    "client": "Virginia DSS — Division of Family Services (DFS)",
+    "date": "2024-07-22",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Pre-DDI",
+      "Excludes DDI Vendor",
+      "Stakeholder Engagement",
+      "User Research",
+      "Training",
+      "No Offshore",
+      "Federal Compliance",
+      "Agile Deliverables",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_BPR_18410_DSS SOR DFS HCD for CCWIS FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdot-pspo-virginia-department-of-transportation-vdot-professiona",
+    "name": "SOR EXAMPLE_APP DEV_18360_VDOT SOR PSPO Solution FINAL.docx",
+    "summary": "Statement of Requirements for implementation of a Professional Services Procurement Office (PSPO) Solution for VDOT. Scope includes full contract lifecycle management, vendor and rate analysis, invoice tracking, and reporting, built on Microsoft Dynamics 365, with integrations to VDOT systems and PowerBI.",
+    "sorType": "Application Development",
+    "services": [
+      "Application Development",
+      "Systems Integration"
+    ],
+    "industries": [
+      "Transportation",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Microsoft Dynamics 365",
+      "PowerBI"
+    ],
+    "techFocus": [
+      "Contract Management",
+      "Workflow Automation"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDOT, PSPO",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Transportation (VDOT) — Professional Services Procurement Office (PSPO)",
+    "date": "2024-07-01",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Multi-System Integration",
+      "Agile Sprints",
+      "Power Platform",
+      "Training Required",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_APP DEV_18360_VDOT SOR PSPO Solution FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "scc-clerk-s-office-virginia-state-corporation-commission-scc-cle",
+    "name": "SOR EXAMPLE_BPR_16458_SCC SOR CIS Communications and Process Improvements final.docx",
+    "summary": "Statement of Requirements for implementation of CIS External Communication Plan and process improvements for the State Corporation Commission (SCC) Clerk’s Office. Scope includes updating communication materials, conducting surveys, improving business processes, and supporting contact center operations.",
+    "sorType": "Business Process Reengineering",
+    "services": [
+      "Process Improvement",
+      "Communications"
+    ],
+    "industries": [
+      "Government",
+      "Regulatory"
+    ],
+    "primaryTechnology": [
+      "MS Office",
+      "SharePoint"
+    ],
+    "techFocus": [
+      "Process Automation",
+      "Stakeholder Engagement"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "SCC, Clerk’s Office",
+    "clientType": "State Agency",
+    "client": "Virginia State Corporation Commission (SCC) — Clerk’s Office",
+    "date": "2020-04-27",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Survey Analysis",
+      "Communications Update",
+      "Contact Center",
+      "Documentation",
+      "Change Management",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_BPR_16458_SCC SOR CIS Communications and Process Improvements final.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "indiana-department-of-natural-resources-dnr-division-of-water-in",
+    "name": "DNR - WLP - SOR 071124 REV 4 final.docx",
+    "summary": "Statement of Requirements for Indiana DNR Division of Water Licensing & Permitting project. Defines requirements for an IT solution (preferably Salesforce-based) to replace legacy systems, support regulatory data management, enable public portals, workflow, reporting, and compliance. Includes project scope, deliverables, evaluation criteria, pricing model, and onboarding/training expectations for vendors.",
+    "sorType": "Application Modernization",
+    "services": [
+      "Application Modernization",
+      "Cloud",
+      "Project Management Office"
+    ],
+    "industries": [
+      "Public Sector",
+      "Utilities"
+    ],
+    "primaryTechnology": [
+      "Salesforce (preferred)",
+      "ESRI/ArcGIS",
+      "Web",
+      "GIS"
+    ],
+    "techFocus": [
+      "Cloud",
+      "Application Modernization",
+      "GIS"
+    ],
+    "sector": "Public Sector",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Indiana"
+    },
+    "agency": "Indiana Department of Natural Resources (DNR), Division of Water",
+    "clientType": "State Agency",
+    "client": "Indiana Department of Natural Resources (DNR) — Division of Water",
+    "date": "2024-07-08",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "GIS Integration",
+      "Agile Methodology",
+      "Public Portal",
+      "Payment Gateway",
+      "Multi-phase Project"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/DNR - WLP - SOR 071124 REV 4 final.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdot-infrastructure-investment-division-virginia-department-of-t",
+    "name": "SOR EXAMPLE_OM_17501_VDOT SOR HMMS Photo Integration FINAL.docx",
+    "summary": "Statement of Requirements for integration of photo attachments from Customer Service Center (CSC) to Highway Maintenance Management System (HMMS) for VDOT. Scope includes system changes, SSIS package development, email notification updates, and attachment management for field operations.",
+    "sorType": "Application Integration",
+    "services": [
+      "Systems Integration",
+      "Minor Enhancements"
+    ],
+    "industries": [
+      "Transportation",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Microsoft Dynamics CRM",
+      "HMMS Vueworks",
+      "SSIS"
+    ],
+    "techFocus": [
+      "Attachment Integration",
+      "Workflow Automation"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDOT, Infrastructure Investment Division",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Transportation (VDOT) — Infrastructure Investment Division",
+    "date": "2022-06-15",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Single/Multi-Photo Support",
+      "Duplicate Request Handling",
+      "Notification Customization",
+      "Attachment Size Flexibility",
+      "UAT Required",
+      "Agile Artifacts",
+      "Technical Documentation Required",
+      "Remote"
+    ],
+    "fundingType": "State",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_OM_17501_VDOT SOR HMMS Photo Integration FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "town-of-dumfries-administrative-and-police-departments-town-of-d",
+    "name": "SOR EXAMPLE_OM_17289_O&M 2022 - SOR.docx",
+    "summary": "Statement of Requirements for IT operations and maintenance support services for the Town of Dumfries, VA. Scope includes managed services, incident management, help desk, minor enhancements, reporting, and compliance with industry standards.",
+    "sorType": "Operations & Maintenance",
+    "services": [
+      "IT Infrastructure Support",
+      "Managed Services"
+    ],
+    "industries": [
+      "Local Government",
+      "Public Administration"
+    ],
+    "primaryTechnology": [
+      "Workstations",
+      "Network",
+      "WiFi",
+      "Windows OS"
+    ],
+    "techFocus": [
+      "O&M Support",
+      "Incident Management"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "Local",
+      "state": "Virginia"
+    },
+    "agency": "Town of Dumfries, Administrative and Police Departments",
+    "clientType": "Local Government",
+    "client": "Town of Dumfries — Administrative and Police Departments",
+    "date": "2021-12-15",
+    "pricingModel": "Hybrid",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "160 Hour/Month Cap",
+      "Core/Off-Hours",
+      "Compliance Support",
+      "Asset Inventory",
+      "Monthly Reporting",
+      "Role/Skill Matrix",
+      "SLAs",
+      "Knowledge Transfer",
+      "Sexual Harassment Training",
+      "COVID Guidelines",
+      "Onsite/Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_OM_17289_O&M 2022 - SOR.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "drpt-it-division-department-of-rail-and-public-transportation-dr",
+    "name": "SOR EXAMPLE_INFOSEC_17433_DRPT SOR Web Applications Pen Testing FINAL.docx",
+    "summary": "Statement of Requirements for monthly penetration testing of DRPT’s web applications and public-facing websites to ensure security compliance and risk mitigation. Includes baseline testing, monthly retests, findings reports, and remediation recommendations for multiple VDOT/DRPT applications.",
+    "sorType": "Information Security",
+    "services": [
+      "Penetration Testing",
+      "Security Assessment"
+    ],
+    "industries": [
+      "Transportation",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Web Applications"
+    ],
+    "techFocus": [
+      "Security Testing",
+      "Vulnerability Assessment"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "DRPT, IT Division",
+    "clientType": "State Agency",
+    "client": "Department of Rail and Public Transportation (DRPT) — IT Division",
+    "date": "2022-04-05",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Remote",
+    "securityCompliance": [
+      "COV Standards"
+    ],
+    "constraints": [
+      "Monthly Testing",
+      "Baseline Report",
+      "No Travel",
+      "Low Risk",
+      "COV Standards",
+      "Supplier Site"
+    ],
+    "fundingType": "State",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_INFOSEC_17433_DRPT SOR Web Applications Pen Testing FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdot-information-technology-division-virginia-department-of-tran",
+    "name": "SOR EXAMPLE_OM_17247_VDOT SOR CEDAR O&M Final.docx",
+    "summary": "Statement of Requirements for ongoing operations and maintenance (O&M) services for VDOT’s CEDAR application, including break/fix support, minor enhancements, reporting, database management, and GIS integration for compliance modules.",
+    "sorType": "Operations & Maintenance",
+    "services": [
+      "Application Support",
+      "Minor Enhancements"
+    ],
+    "industries": [
+      "Transportation",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "CEDAR Application",
+      "GIS",
+      "Survey123",
+      "Crystal Reports"
+    ],
+    "techFocus": [
+      "Application Support",
+      "Incident Management"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDOT, Information Technology Division",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Transportation (VDOT) — Information Technology Division",
+    "date": "2021-10-27",
+    "pricingModel": "Hybrid",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Agile",
+      "Core/Off Hours",
+      "SLA-driven",
+      "Severity Levels",
+      "Bi-weekly Meetings",
+      "Written Documentation",
+      "Federal Funds Option",
+      "Training/Job Aids",
+      "Withholding Clauses",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Low",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_OM_17247_VDOT SOR CEDAR O&M Final.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdh-office-of-licensure-certification-olc-virginia-department-of",
+    "name": "SOR EXAMPLE_OM_17962_VDH SOR OLC OM 2023 Final.docx",
+    "summary": "Statement of Requirements for operations and maintenance (O&M) support services for the VDH Office of Licensure & Certification (OLC) Provider Licensing Salesforce-based solution, including application support, maintenance, enhancements, and reporting.",
+    "sorType": "Operations & Maintenance",
+    "services": [
+      "Application Support",
+      "Professional Services"
+    ],
+    "industries": [
+      "Health",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Salesforce",
+      "SaaS"
+    ],
+    "techFocus": [
+      "O&M Support",
+      "Incident Management"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDH, Office of Licensure & Certification (OLC)",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Health (VDH) — Office of Licensure & Certification (OLC)",
+    "date": "2023-08-24",
+    "pricingModel": "Hybrid",
+    "deliveryModel": "Remote",
+    "securityCompliance": [],
+    "constraints": [
+      "Monthly Deliverables",
+      "Core/Off-Hours",
+      "Enhancement T&M Option",
+      "Knowledge Base",
+      "Bi-Weekly Reporting",
+      "SLA-driven",
+      "Training",
+      "90-Day Warranty",
+      "ServiceNow Portal",
+      "Salesforce Premier+ Support"
+    ],
+    "fundingType": "State",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_OM_17962_VDH SOR OLC OM 2023 Final.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdot-traffic-operations-division-virginia-department-of-transpor",
+    "name": "SOR EXAMPLE_OM_17549_VDOT SOR TOSC NOC OM FINAL.docx",
+    "summary": "Statement of Requirements for operations and maintenance support for VDOT Traffic Operations Support Center (TOSC) Network Operations Center (NOC), including 24x7x365 monitoring, asset management, anomaly response, reporting, and integration with OTSaAM, Icinga, and ClearAsset tools.",
+    "sorType": "Operations & Maintenance",
+    "services": [
+      "Network Operations",
+      "Asset Management"
+    ],
+    "industries": [
+      "Transportation",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "OTSaAM",
+      "Icinga",
+      "ClearAsset",
+      "OSPInsight"
+    ],
+    "techFocus": [
+      "Network Monitoring",
+      "Device Management"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDOT, Traffic Operations Division",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Transportation (VDOT) — Traffic Operations Division",
+    "date": "2022-08-12",
+    "pricingModel": "Hybrid",
+    "deliveryModel": "Onsite",
+    "securityCompliance": [],
+    "constraints": [
+      "24x7x365 Support",
+      "Hybrid Staffing",
+      "SOC Coordination",
+      "Quarterly/Monthly Reporting",
+      "Incident Response",
+      "Training Plan",
+      "Innovative Data Use",
+      "Azure Cloud",
+      "Maximum 6 Staff/Shift",
+      "Asset Life-cycle Analytics",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_OM_17549_VDOT SOR TOSC NOC OM FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vita-enterprise-services-virginia-information-technologies-agenc",
+    "name": "SOR EXAMPLE_OM_17886_VITA SOR Enterprise Salesforce Ops and Main 2023-2024 FINAL.docx",
+    "summary": "Statement of Requirements for operations and maintenance support for VITA’s Enterprise Salesforce platform, including multi-org management, user provisioning, license reporting, security configuration, and optional service enhancements.",
+    "sorType": "Operations & Maintenance",
+    "services": [
+      "Platform Support",
+      "User Provisioning"
+    ],
+    "industries": [
+      "Government",
+      "IT Services"
+    ],
+    "primaryTechnology": [
+      "Salesforce",
+      "GovCloud"
+    ],
+    "techFocus": [
+      "Application Support",
+      "Security Administration"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VITA, Enterprise Services",
+    "clientType": "State Agency",
+    "client": "Virginia Information Technologies Agency (VITA) — Enterprise Services",
+    "date": "2023-05-01",
+    "pricingModel": "Hybrid",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Multi-Org",
+      "Tiered Support",
+      "Off-Hours Response",
+      "SPLM Integration",
+      "SIEM/OKTA/Geofencing",
+      "Ad-hoc Reporting",
+      "No Hardware/Software Procurement",
+      "Service Catalog",
+      "License Management",
+      "Performance Bond Not Required",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_OM_17886_VITA SOR Enterprise Salesforce Ops and Main 2023-2024 FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdot-human-resources-virginia-department-of-transportation-vdot",
+    "name": "SOR EXAMPLE_APP DEV_17540_VDOT SOR Oracle HCM Cloud Implementation Phase 3.docx",
+    "summary": "Statement of Requirements for Phase 3 implementation of Oracle Human Capital Management (HCM) Cloud for VDOT. Scope includes talent acquisition & onboarding, compensation, performance management, off-boarding, personnel files, core HR, and out-of-the-box reporting. Project replaces legacy HR systems with Oracle HCM SaaS, emphasizing automation, self-service, and integration with existing systems.",
+    "sorType": "SaaS Implementation",
+    "services": [
+      "Cloud Implementation",
+      "Project Management"
+    ],
+    "industries": [
+      "Government",
+      "Transportation"
+    ],
+    "primaryTechnology": [
+      "Oracle HCM Cloud"
+    ],
+    "techFocus": [
+      "HR Automation",
+      "Cloud Migration"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDOT, Human Resources",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Transportation (VDOT) — Human Resources",
+    "date": "2022-08-03",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Multi-phase",
+      "IV&V Required",
+      "Sensitive Data",
+      "SaaS",
+      "Train-the-Trainer",
+      "Remote"
+    ],
+    "fundingType": "State",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_APP DEV_17540_VDOT SOR Oracle HCM Cloud Implementation Phase 3.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "scc-division-of-securities-and-retail-franchising-virginia-state",
+    "name": "SOR EXAMPLE_BPR_17316_SRF Process Improvement SOR Final.docx",
+    "summary": "Statement of Requirements for process improvement planning for the SCC Division of Securities and Retail Franchising (SERFIS) upgrade. Includes as-is and to-be process analysis, change management, and implementation planning for regulatory operations.",
+    "sorType": "Business Process Reengineering",
+    "services": [
+      "Process Improvement",
+      "Change Management"
+    ],
+    "industries": [
+      "Government",
+      "Regulatory"
+    ],
+    "primaryTechnology": [
+      "MS Office",
+      "Visio"
+    ],
+    "techFocus": [
+      "Process Analysis",
+      "Standardization"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "SCC, Division of Securities and Retail Franchising",
+    "clientType": "State Agency",
+    "client": "Virginia State Corporation Commission (SCC) — Division of Securities and Retail Franchising",
+    "date": "2022-01-10",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "As-Is/To-Be Mapping",
+      "Change Plan",
+      "Executive Summary",
+      "Knowledge Transfer",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_BPR_17316_SRF Process Improvement SOR Final.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "virginia-department-of-health-office-of-information-management-v",
+    "name": "SOR EXAMPLE_SP_17789_VDH SOR DMI Final.docx",
+    "summary": "Statement of Requirements for project management support and plan development for the Virginia Department of Health's Data Modernization Initiative (DMI), including plan assessment, stakeholder engagement, plan updates, and executive charter creation, aligned with CDC and state data modernization goals.",
+    "sorType": "Strategic Planning",
+    "services": [
+      "Project Management",
+      "Planning Support"
+    ],
+    "industries": [
+      "Health",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Microsoft Office"
+    ],
+    "techFocus": [
+      "Data Modernization",
+      "Stakeholder Engagement"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "Virginia Department of Health, Office of Information Management",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Health (VDH) — Office of Information Management",
+    "date": "2023-02-28",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "CDC Alignment",
+      "Executive Charter",
+      "Federal Grant",
+      "Low Risk",
+      "Short Timeline",
+      "Stakeholder Buy-In",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_SP_17789_VDH SOR DMI Final.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vdot-construction-division-virginia-department-of-transportation",
+    "name": "SOR EXAMPLE_APP DEV_18184_VDOT SOR CNSP Program FINAL.docx",
+    "summary": "Statement of Requirements for replacement and enhancement of the Copied Note Special Provisions (CNSP) software for VDOT. Scope includes implementing a new Dynamics 365-based solution to automate, secure, and streamline construction contract proposal creation, document management, and workflow.",
+    "sorType": "Application Development",
+    "services": [
+      "Application Development",
+      "Systems Integration"
+    ],
+    "industries": [
+      "Transportation",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "Microsoft Dynamics 365",
+      "SharePoint Online"
+    ],
+    "techFocus": [
+      "Document Automation",
+      "Workflow"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VDOT, Construction Division",
+    "clientType": "State Agency",
+    "client": "Virginia Department of Transportation (VDOT) — Construction Division",
+    "date": "2024-03-08",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Legacy Replacement",
+      "Power Platform",
+      "Agile Sprints",
+      "No Offshore",
+      "Training Required",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Low",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_APP DEV_18184_VDOT SOR CNSP Program FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "virginia-department-of-taxation-18025",
+    "name": "SOR EXAMPLE_INFOSEC_18025_TAX SOR IT Security Audits FileNet_CACSG_PASS_SailPoint FINAL.docx",
+    "summary": "Statement of Requirements for SEC530 IT security audits of four major VA Tax systems (CACSG, PASS, FileNet, SailPoint). Includes audit planning, testing, reporting, corrective action plans, compliance with COV SEC530/502, and assurance of independence.",
+    "sorType": "Information Security",
+    "services": [
+      "IT Security Audit",
+      "Compliance Assessment"
+    ],
+    "industries": [
+      "Taxation",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "FileNet",
+      "SailPoint",
+      "Oracle",
+      "Linux"
+    ],
+    "techFocus": [
+      "Security Controls",
+      "Audit"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "Virginia Department of Taxation",
+    "clientType": "State Agency",
+    "client": "TBD",
+    "date": "2023-10-20",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Multiple Systems",
+      "Sensitive Data",
+      "Independence Required",
+      "Detailed Reporting",
+      "No Offshore",
+      "IIA Standards",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_INFOSEC_18025_TAX SOR IT Security Audits FileNet_CACSG_PASS_SailPoint FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "virginia-department-of-health-vdh-internal-audit-18112",
+    "name": "SOR EXAMPLE_INFOSEC_18112_VDH SOR 2024 IT Security Audits Final.docx",
+    "summary": "Statement of Requirements for SEC530 IT security audits of sensitive systems at Virginia Department of Health (VDH). Includes audit planning, control testing, reporting, corrective action plans, compliance with COV SEC530/502, and adherence to GAGAS/Yellow Book standards.",
+    "sorType": "Information Security",
+    "services": [
+      "IT Security Audit",
+      "Compliance Assessment"
+    ],
+    "industries": [
+      "Health",
+      "Government"
+    ],
+    "primaryTechnology": [
+      "OEPI ELR",
+      "HIV-CTR",
+      "VASE",
+      "CCC-SUN"
+    ],
+    "techFocus": [
+      "Security Controls",
+      "Audit"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "Virginia Department of Health (VDH), Internal Audit",
+    "clientType": "State Agency",
+    "client": "TBD",
+    "date": "2024-01-18",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Sensitive Systems",
+      "GAGAS Standards",
+      "No Offshore",
+      "Detailed Milestones",
+      "User Acceptance Test",
+      "Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_INFOSEC_18112_VDH SOR 2024 IT Security Audits Final.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vita-localities-various-virginia-information-technologies-agency",
+    "name": "SOR EXAMPLE_INFOSEC_18354_VITA SOR Cybersecurity Plan Capability Assessment FINAL.docx",
+    "summary": "Statement of Requirements for statewide cybersecurity capability assessments for Virginia localities. Scope includes needs/gap assessment, report creation, recommendations for operationalizing the VA Cybersecurity Plan, and delivery of artifacts for at least 105 local government entities under the State and Local Cybersecurity Grant Program (SLCGP).",
+    "sorType": "Information Security",
+    "services": [
+      "Cybersecurity Assessment",
+      "Gap Analysis"
+    ],
+    "industries": [
+      "Government",
+      "Local Government"
+    ],
+    "primaryTechnology": [
+      "N/A (Assessment/Consulting)"
+    ],
+    "techFocus": [
+      "Security Assessment",
+      "Capability Review"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State & Local",
+      "state": "Virginia"
+    },
+    "agency": "VITA, Localities (various)",
+    "clientType": "State Agency",
+    "client": "Virginia Information Technologies Agency (VITA) — Localities (various)",
+    "date": "2024-03-18",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Remote",
+    "securityCompliance": [],
+    "constraints": [
+      "Large Scale (105+)",
+      "Multiple Awards Possible",
+      "Rural Focus",
+      "Federal Funding",
+      "Standardized Template",
+      "Report-Driven",
+      "Tiered Pricing Option",
+      "Training/Doc Required",
+      "Onsite (if requested)"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_INFOSEC_18354_VITA SOR Cybersecurity Plan Capability Assessment FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "vita-infrastructure-services-17613",
+    "name": "SOR EXAMPLE_SP_17613_VITA SOR MSI Advisory Services FINAL.docx",
+    "summary": "Statement of Requirements for strategy and planning advisory services to support VITA's Multi-Sourcing Service Integrator (MSI) program, including assessment, gap analysis, risk management, governance readiness, and RFP planning for rebid of statewide IT infrastructure services.",
+    "sorType": "Strategic Planning",
+    "services": [
+      "Sourcing Advisory",
+      "IT Strategy"
+    ],
+    "industries": [
+      "Government",
+      "IT Services"
+    ],
+    "primaryTechnology": [
+      "N/A (Consulting/Planning)"
+    ],
+    "techFocus": [
+      "Governance Assessment",
+      "Risk Management"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "VITA, Infrastructure Services",
+    "clientType": "State Agency",
+    "client": "TBD",
+    "date": "2022-09-26",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "RFP Preparation",
+      "Gap Analysis",
+      "Governance Roadmap",
+      "Risk Register",
+      "Financial Benchmarking",
+      "User Acceptance Test/Final Report Option",
+      "Short Timeline",
+      "Remote"
+    ],
+    "fundingType": "State",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_SP_17613_VITA SOR MSI Advisory Services FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "scc-office-of-information-security-virginia-state-corporation-co",
+    "name": "SOR EXAMPLE_INFOSEC_18465_SCC SOR Info Security Assessment FINAL.docx",
+    "summary": "tatement of Requirements for a comprehensive information security assessment of the State Corporation Commission (SCC), including review of policies, procedures, SIEM/IPS/CyberArk tools, team capabilities, incident management, and security posture benchmarking.",
+    "sorType": "Information Security",
+    "services": [
+      "Security Assessment",
+      "Policy Review"
+    ],
+    "industries": [
+      "Government",
+      "Regulatory"
+    ],
+    "primaryTechnology": [
+      "Trellix SIEM",
+      "Trellix IPS",
+      "CyberArk"
+    ],
+    "techFocus": [
+      "Security Assessment",
+      "Incident Management"
+    ],
+    "sector": "Public",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Virginia"
+    },
+    "agency": "SCC, Office of Information Security",
+    "clientType": "State Agency",
+    "client": "Virginia State Corporation Commission (SCC) — Office of Information Security",
+    "date": "2024-10-04",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Multi-tool Review",
+      "Best Practices Benchmark",
+      "Deliverable-based",
+      "No Offshore",
+      "GAGAS Standards",
+      "Executive/PM Engagement",
+      "FOIA Guidance",
+      "Federal Funding Option",
+      "Onsite/Remote"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "existingSORDocs/SORdocs/SOR EXAMPLE_INFOSEC_18465_SCC SOR Info Security Assessment FINAL.docx",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "indiana-department-of-education-idoe-indiana-department-of-educa",
+    "name": "NPEFS SOR v2.pdf",
+    "summary": "The NPEFS project focuses on creating a centralized system to automate financial calculations and reporting for the federal National Public Education Finance Survey, to replace manual processes currently using Excel. Objectives include streamlining data management, enhancing report accuracy, and ensuring timely federal fund allocations. The project requires detailed deliverables, compliance with Indiana Office of Technology standards, and integration with IDOE systems.",
+    "sorType": "Application Modernization",
+    "services": [
+      "Application Modernization",
+      "Data and Artificial Intelligence",
+      "Strategy and Consulting"
+    ],
+    "industries": [
+      "Education",
+      "Public Sector"
+    ],
+    "primaryTechnology": [
+      "Custom application development"
+    ],
+    "techFocus": [
+      "Application Modernization",
+      "Data & AI"
+    ],
+    "sector": "Public Sector",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Indiana"
+    },
+    "agency": "Indiana Department of Education (IDOE)",
+    "clientType": "State Agency",
+    "client": "Indiana Department of Education (IDOE)",
+    "date": "2022-08-08",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Centralized database",
+      "Automation",
+      "Reporting Accuracy",
+      "Federal Compliance",
+      "Financial Data Management",
+      "Deliverable-based"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "indiana-office-of-technology-iot-indiana-office-of-technology-io",
+    "name": "SOR - IOT ServiceNow OCM (18514).pdf",
+    "summary": "This document outlines the Statement of Requirements for providing Organizational Change Management (OCM) and Training Services to support the State of Indiana's ServiceNow Implementation Phases 1 and 2. It includes a high-level timeline, user roles, training types, and project deliverables focused on ensuring successful adoption and transition to the new ITSM system.",
+    "sorType": "Organizational Change Management SOR",
+    "services": [
+      "Strategy and Consulting",
+      "IT Service Management",
+      "ServiceNow®"
+    ],
+    "industries": [
+      "Public Sector"
+    ],
+    "primaryTechnology": [
+      "ServiceNow"
+    ],
+    "techFocus": [
+      "OCM",
+      "Training",
+      "ITSM"
+    ],
+    "sector": "Public Sector",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Indiana"
+    },
+    "agency": "Indiana Office of Technology (IOT)",
+    "clientType": "State Agency",
+    "client": "Indiana Office of Technology (IOT)",
+    "date": "2024-12-06",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "Agile Scrum",
+      "Phased Implementation",
+      "User Roles Defined",
+      "Training Plans"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "state-of-alabama-state-of-alabama-cai-alabama-supplier-agreement",
+    "name": "CAI_ALABAMA_Supplier_Agreement_v2025.04.01-final.pdf",
+    "summary": "This document serves as a master VMS and Staff Augmentation Supplier Agreement between Computer Aid, Inc. (CAI) and IT staffing suppliers, governing both staff augmentation and fixed-price SOW engagements for the State of Alabama. The agreement outlines compliance, insurance, onboarding, invoicing, data security, and performance requirements for all IT resources and services provided through CAI’s VMS platform under Alabama’s NASPO ValuePoint participation.",
+    "sorType": "CWS MSP / Staff Augmentation",
+    "services": [
+      "Contingent Workforce Solutions",
+      "Managed Service Provider",
+      "Vendor Management System",
+      "Staffing Services"
+    ],
+    "industries": [
+      "Public Sector"
+    ],
+    "primaryTechnology": [
+      "VMS platform"
+    ],
+    "techFocus": [
+      "General IT",
+      "Staffing"
+    ],
+    "sector": "Public Sector",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Alabama"
+    },
+    "agency": "State of Alabama",
+    "clientType": "State Agency",
+    "client": "State of Alabama",
+    "date": "2025-04-01",
+    "pricingModel": "Fixed Price",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "VMS Required",
+      "Insurance Levels Specified",
+      "Staff Aug"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  },
+  {
+    "id": "indiana-commission-for-higher-education-iche-indiana-commission",
+    "name": "ICHE Custom Application Maintenance, Support, and Enhancement Services- SOR.pdf",
+    "summary": "This SOR outlines requirements for ongoing application maintenance, support, and enhancement services for the Indiana Commission for Higher Education's custom applications. Scope includes system support, incident management, DevOps, enhancements, documentation, integration, and reporting. Strict compliance, communication, reporting, and security expectations are included, with an emphasis on FERPA and state data protection.",
+    "sorType": "Application Maintenance & Support",
+    "services": [
+      "Application Support",
+      "Data",
+      "Project Management Office"
+    ],
+    "industries": [
+      "Education",
+      "Public Sector"
+    ],
+    "primaryTechnology": [
+      "Custom web applications",
+      "ScholarTrack",
+      "CHEDSS"
+    ],
+    "techFocus": [
+      "Application Support",
+      "DevOps",
+      "Data & AI",
+      "Security"
+    ],
+    "sector": "Public Sector",
+    "jurisdiction": {
+      "level": "State",
+      "state": "Indiana"
+    },
+    "agency": "Indiana Commission for Higher Education (ICHE)",
+    "clientType": "State Agency",
+    "client": "Indiana Commission for Higher Education (ICHE)",
+    "date": "2024-09-24",
+    "pricingModel": "T&M",
+    "deliveryModel": "Hybrid",
+    "securityCompliance": [],
+    "constraints": [
+      "SDLC Hybrid Agile",
+      "Service Levels",
+      "CI/CD",
+      "Multi-app support",
+      "Scalability",
+      "Quarterly Business Reviews",
+      "Staff Replacement Policy",
+      "Managed Services"
+    ],
+    "fundingType": "N/A",
+    "complexity": "Medium",
+    "tags": [],
+    "documentPath": "",
+    "version": "1.0",
+    "lastReviewed": "2025-08-26"
+  }
+]

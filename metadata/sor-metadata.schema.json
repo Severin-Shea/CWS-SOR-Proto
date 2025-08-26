@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SOR Metadata",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "name": { "type": "string" },
+      "summary": { "type": "string" },
+      "sorType": {
+        "type": "string",
+        "enum": [
+          "Application Development",
+          "Operations & Maintenance", 
+          "Information Security",
+          "SaaS Implementation",
+          "Strategic Planning",
+          "Business Process Reengineering",
+          "Application Integration",
+          "Application Modernization",
+          "Organizational Change Management SOR",
+          "CWS MSP / Staff Augmentation",
+          "Application Maintenance & Support",
+          "IT Strategic Planning",
+          "Other"
+        ]
+      },
+      "services": { "type": "array", "items": { "type": "string" } },
+      "industries": { "type": "array", "items": { "type": "string" } },
+      "primaryTechnology": { "type": "array", "items": { "type": "string" } },
+      "techFocus": { "type": "array", "items": { "type": "string" } },
+      "sector": { "type": "string", "enum": ["Public", "Private", "Nonprofit", "Public Sector"] },
+      "jurisdiction": {
+        "type": "object",
+        "properties": {
+          "level": { "type": "string", "enum": ["Local", "State", "Federal", "State & Local"] },
+          "state": { "type": "string", "minLength": 2, "maxLength": 20 }
+        },
+        "required": ["level"]
+      },
+      "agency": { "type": "string" },
+      "clientType": { "type": "string" },
+      "client": { "type": "string" },
+      "date": { "type": "string", "format": "date" },
+      "durationMonths": { "type": "integer", "minimum": 0 },
+      "pricingModel": { "type": "string", "enum": ["Fixed Price", "T&M", "Hybrid"] },
+      "deliveryModel": { "type": "string", "enum": ["Onsite", "Remote", "Hybrid"] },
+      "securityCompliance": { "type": "array", "items": { "type": "string" } },
+      "constraints": { "type": "array", "items": { "type": "string" } },
+      "fundingType": { "type": "string", "enum": ["State", "Federal", "ARPA", "Other", "N/A"] },
+      "complexity": { "type": "string", "enum": ["Low", "Medium", "High"] },
+      "tags": { "type": "array", "items": { "type": "string" } },
+      "documentPath": { "type": "string" },
+      "version": { "type": "string" },
+      "lastReviewed": { "type": "string", "format": "date" }
+    },
+    "required": [
+      "id",
+      "name",
+      "summary",
+      "sorType",
+      "sector",
+      "jurisdiction",
+      "pricingModel",
+      "deliveryModel",
+      "documentPath"
+    ]
+  }
+}

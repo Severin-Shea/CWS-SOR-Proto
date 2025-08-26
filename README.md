@@ -1,4 +1,55 @@
-# SOR Composer Prototype (Backend First)
+# CWS-SOR-Proto
+
+This prototype uses existing SOR documents and curated metadata to generate new SORs with accurate structure, terminology, and constraints.
+
+## Quick start
+
+1. Install dependencies
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. Normalize metadata (converts Drafted-SOR-Metadatav2.json into a standardized schema)
+   ```
+   python scripts/normalize_sor_metadata.py
+   ```
+
+3. Validate metadata against schema
+   ```
+   python scripts/validate_metadata.py
+   ```
+
+4. Extract DOCX exemplars to Markdown with frontmatter
+   ```
+   python scripts/extract_docx_text.py
+   ```
+
+5. Build section-aware chunks for retrieval
+   ```
+   python src/chunk_markdown.py
+   ```
+   Chunks are written to `context/chunks.jsonl`.
+
+## How generation uses this data
+
+- Pre-filter exemplars by `sorType`, `sector`, and `jurisdiction.state`.
+- Retrieve top-k chunks from `context/chunks.jsonl` weighted by overlapping `securityCompliance`, `deliveryModel`, and `pricingModel`.
+- Assemble the response via `prompts/sor-generation-system-prompt.md`, citing exemplar sections like `[cite: docId §Section]`.
+
+## Conventions
+
+- Normalized metadata: `existingSORDocs/metadataSORDocs/sor-metadata.normalized.json` (validated by `metadata/sor-metadata.schema.json`).
+- Extracted Markdown: `processedDocs/{id}.md` with YAML frontmatter.
+- CI validates metadata on every push/PR.
+
+## Notes
+
+- Avoid including sensitive details from exemplars; redact PII and internal credentials.
+- Keep metadata updated; set `lastReviewed` when changing content.
+
+---
+
+## Backend SOR Composer Prototype
 
 Implements the approvals-driven SOR generation flow:
 1) Create compose session and propose examples
