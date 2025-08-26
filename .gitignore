@@ -1,0 +1,10 @@
+# Node
+node_modules/
+npm-debug.log*
+dist/
+.env
+# Artifacts
+.artifacts/
+# Mac/IDE
+.DS_Store
+.vscode/

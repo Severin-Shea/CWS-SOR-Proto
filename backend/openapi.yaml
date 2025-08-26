@@ -1,0 +1,96 @@
+openapi: 3.0.3
+info:
+  title: SOR Composer API (Prototype)
+  version: 0.1.0
+servers:
+  - url: http://localhost:4000
+paths:
+  /healthz:
+    get:
+      summary: Health check
+      responses:
+        '200': { description: OK }
+  /compose/init:
+    post:
+      summary: Create compose request and propose examples
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [agency, contract_type, project_domain, inputs, allow_expand_beyond_examples]
+              properties:
+                agency: { type: string }
+                contract_type: { type: string }
+                project_domain: { type: string }
+                inputs: { type: object, additionalProperties: true }
+                allow_expand_beyond_examples: { type: boolean }
+      responses:
+        '200':
+          description: Created with examples proposal
+  /compose/{compose_id}/approve-examples:
+    post:
+      summary: Approve proposed examples
+      parameters:
+        - in: path
+          name: compose_id
+          required: true
+          schema: { type: string }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [approved_doc_ids]
+              properties:
+                approved_doc_ids:
+                  type: array
+                  items: { type: string }
+      responses:
+        '200':
+          description: Returns template proposal
+  /compose/{compose_id}/approve-template:
+    post:
+      summary: Approve or reject template proposal
+      parameters:
+        - in: path
+          name: compose_id
+          required: true
+          schema: { type: string }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [accept]
+              properties:
+                accept: { type: boolean }
+                feedback: { type: string }
+      responses:
+        '200':
+          description: Status and next action
+  /compose/{compose_id}/run:
+    post:
+      summary: Compose draft using approved template and examples
+      parameters:
+        - in: path
+          name: compose_id
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: Draft composed
+  /compose/{compose_id}:
+    get:
+      summary: Get compose session
+      parameters:
+        - in: path
+          name: compose_id
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: Session details
