@@ -70,12 +70,18 @@ def main():
         import re
         # Drop Markdown images entirely to avoid embedding base64 or external refs
         md = re.sub(r"!\[[^\]]*\]\([^\)]*\)", "", md)
-        md = re.sub(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}",
-                    "[redacted-email]",
-                    md, flags=re.IGNORECASE)
-        md = re.sub(r"(\+?1[\s.-]?)?(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})",
-                    "[redacted-phone]",
-                    md)
+        # Normalize common markdown escapes so regex can match
+        normalized = md.replace("\\.", ".").replace("\\-", "-")
+        normalized = normalized.replace("\\(", "(").replace("\\)", ")")
+        # Redact emails
+        normalized = re.sub(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}",
+                            "[redacted-email]",
+                            normalized, flags=re.IGNORECASE)
+        # Redact US phone numbers
+        normalized = re.sub(r"(\+?1[\s.-]?)?(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})",
+                            "[redacted-phone]",
+                            normalized)
+        md = normalized
 
         fm = to_frontmatter(meta) if meta else ""
         out_path.write_text(fm + md, encoding="utf-8")
